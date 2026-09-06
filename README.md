@@ -2,10 +2,10 @@
 
   # Hi, I'm Sarvesh S 👋
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=650&lines=Aspiring+Software+Developer+🌱;Learning+by+Building+Hands-On+Projects+💻;Hackathons+%26+Team+Collaborations+👥;Exploring+React+19,+Next.js+%26+TypeScript+🚀;Curious,+Eager+to+Learn+%26+Contribute+✨)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=650&lines=CS+Student+%26+Beginner+Developer+🌱;Learning+by+Building+Projects+💻;Exploring+Web+Dev,+React+%26+Next.js+🚀;Always+Curious+%26+Tinkering+✨)](https://git.io/typing-svg)
 
   <p align="center">
-    <strong>Computer Science Student • Hands-on Learner • Team Player</strong>
+    <strong>Computer Science Student • Building projects to learn • Tinkering with code</strong>
   </p>
 
   <p align="center">
@@ -19,86 +19,84 @@
 
 ---
 
-### 🌱 About Me & My Learning Journey
+### 🌱 About Me
 
-I'm an aspiring developer passionate about building practical software and learning how complex systems work under the hood. Rather than just watching tutorials, I prefer **learning by doing** — collaborating in hackathons with friends, tackling challenging personal projects, and figuring things out through iterative debugging.
+Hey! I'm an undergraduate Computer Science student getting my hands dirty with programming. I'm still early in my software development journey and consider myself very much a beginner, but I love building things to figure out how they actually work.
 
-- 🎓 **Student & Learner:** Constantly building projects to deepen my understanding of software design, frontend engineering, and full-stack development.
-- 👥 **Team Collaborator:** Experienced working in a fast-paced team environment (hackathons), coordinating Git workflows, agreeing on API contracts, and connecting frontends to backend services.
-- 🤝 **Why Club Recruitment?** As someone eager to grow, I want to work closely with seniors and peers in the club, build impactful college projects, participate in hackathons, and contribute reliable, enthusiastic effort!
+- 📚 **How I Learn:** Instead of just watching tutorials, I like to jump straight into making projects and learning through trial, error, and plenty of debugging.
+- 👥 **Teamwork:** Enjoyed teaming up with friends for hackathons, learning how to use Git collaboratively and connect frontends with teammates' backends.
+- 🎯 **What I Enjoy:** Breaking down how web apps work, experimenting with interactive interfaces, and writing simple, clean code.
 
 ---
 
-### 🚀 Featured Projects
+### 🛠️ Projects I've Worked On
 
-#### 👥 Collaborative Team Projects (Hackathons)
+Here are a few projects I built or contributed to while practicing and learning:
+
+#### 👥 Team Project (Hackathon with Friends)
 
 <div align="center">
 
-| Project | Tech Stack | What We Built & My Contribution |
+| Project | Tools Used | What It Is & What I Did |
 | :--- | :--- | :--- |
-| **[🗺️ CodeMap (ImpactLens AI)](https://github.com/Dhyanesh2603/Codemap)**<br><sub>Autonomous Codebase Intelligence Platform</sub> | `Next.js` `TypeScript` `React Flow` `Tailwind CSS` `WebSockets` | **Built collaboratively with friends during a hackathon (Team of 4).**<br>• Designed to transform large codebases into interactive architectural knowledge graphs.<br>• **My Role (Frontend Lead):** Built the entire Next.js frontend, interactive **React Flow** architecture canvas, real-time ripple impact visualizations, live node inspector drawers, commit timelines, and dark-mode analytics dashboard connected to backend APIs. |
+| **[🗺️ CodeMap](https://github.com/Dhyanesh2603/Codemap)**<br><sub>Codebase Visualizer</sub> | `Next.js` `TypeScript` `React Flow` `Tailwind CSS` | **Built with 3 friends during a hackathon.**<br>• An app to visualize repository structures and file relationships.<br>• **My part:** Worked on the frontend interface using Next.js and learned how to use **React Flow** to render interactive node graphs and visual impact cards. |
 
 </div>
 
 <br>
 
-#### 💻 Individual Learning & Exploration Projects
+#### 💻 Personal Practice Projects
 
 <div align="center">
 
-| Project | Tech Stack | What I Explored & Learned |
+| Project | Tools Used | Why I Built It & What I Learned |
 | :--- | :--- | :--- |
-| **[⚡ GitAssist](https://github.com/SarveshS1407/GitAssist)**<br><sub>Codebase Visualizer & Archaeology Tool</sub> | `Node.js` `JavaScript` `REST API` `Mermaid.js` | **Learning Git internals and AST parsing.**<br>• Explored how ASTs and regex parse code structure without cloud dependencies.<br>• Visualized module dependencies and circular coupling with Mermaid.<br>• Practiced automated testing (**47 passing unit & integration tests on CI**). |
-| **[🏙️ Project Tycoon](https://github.com/SarveshS1407/project-tycoon)**<br><sub>Full-Stack Dev Sim & Rival CTO Arena</sub> | `React 19` `Express 5` `Tailwind v4` `Vite` | **Exploring full-stack state & browser multimedia.**<br>• Connected a modern React 19 frontend to an Express 5 REST API backend.<br>• Modeled mathematical formulas for developer velocity vs. technical debt.<br>• Experimented with the Web Audio API for custom synthesized game sounds. |
-| **[🩸 Veritas Mortis](https://github.com/SarveshS1407/veritas-mortis)**<br><sub>Procedural Detective Thriller Engine</sub> | `Next.js 16` `React 19` `TypeScript` `Zustand` | **Stepping into TypeScript & Next.js App Router.**<br>• Challenged myself with TypeScript types and Next.js 16 App Router.<br>• Implemented procedural generation using seeded Mulberry32 PRNG algorithms.<br>• Built interactive forensic mechanics and Framer Motion UI animations. |
+| **[⚡ GitAssist](https://github.com/SarveshS1407/GitAssist)**<br><sub>Codebase Explorer</sub> | `Node.js` `JavaScript` `REST API` `Mermaid.js` | **Wanted to understand Git and code structure.**<br>• Built a simple local tool to inspect files, commit logs, and module imports.<br>• Learned how to write basic automated tests (**47 passing unit & integration tests**). |
+| **[🏙️ Project Tycoon](https://github.com/SarveshS1407/project-tycoon)**<br><sub>Management Simulation</sub> | `React` `Express` `Tailwind CSS` `Vite` | **Practicing full-stack basics and game logic.**<br>• Created a browser simulation exploring developer velocity, bug trade-offs, and simple math models.<br>• Connected a React UI to an Express backend and played with browser audio effects. |
+| **[🩸 Veritas Mortis](https://github.com/SarveshS1407/veritas-mortis)**<br><sub>Interactive Detective Mystery</sub> | `Next.js` `TypeScript` `Framer Motion` `Zustand` | **Practicing TypeScript and UI animations.**<br>• Built an interactive detective mystery game to practice writing TypeScript without errors.<br>• Learned basic procedural case generation using random number algorithms and experimented with Framer Motion animations. |
 
 </div>
 
 ---
 
-### 📚 Technologies I'm Exploring & Practicing
-
-> *Technologies I've actively used in projects and am continuing to practice:*
+### 💻 Technologies I'm Learning & Tinkering With
 
 <div align="center">
 
 #### Languages
 ![TypeScript](https://img.shields.io/badge/TypeScript-Learning-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-Practicing-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-Basics-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?style=flat-square&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-Layouts-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-#### Frontend & UI Ecosystem
-![React](https://img.shields.io/badge/React_19-Components_%26_Hooks-61DAFB?style=flat-square&logo=react&logoColor=black)
+#### Frontend & UI
+![React](https://img.shields.io/badge/React-Components_%26_Hooks-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-App_Router-000000?style=flat-square&logo=next.js&logoColor=white)
-![React Flow](https://img.shields.io/badge/React_Flow-Interactive_Graphs-FF0072?style=flat-square&logo=react&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-Styling-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-0055FF?style=flat-square&logo=framer&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=flat-square&logo=vite&logoColor=white)
+![React Flow](https://img.shields.io/badge/React_Flow-Node_Graphs-FF0072?style=flat-square&logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Utility_Classes-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-#### Backend, Architecture & Tools
-![Node.js](https://img.shields.io/badge/Node.js-Runtime-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-REST_APIs-000000?style=flat-square&logo=express&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Team_Workflows_%26_CI-181717?style=flat-square&logo=github&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-Package_Manager-F69220?style=flat-square&logo=pnpm&logoColor=white)
+#### Backend & Everyday Tools
+![Node.js](https://img.shields.io/badge/Node.js-Learning-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-Simple_APIs-000000?style=flat-square&logo=express&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Basics_%26_Branching-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Commits_%26_PRs-181717?style=flat-square&logo=github&logoColor=white)
 
 </div>
 
 ---
 
-### 🎯 Current Learning Goals
+### 🎯 Things I Want to Learn Next
 
-- 🧩 Deepening my grasp of **Data Structures & Algorithms** and clean problem solving.
-- 📐 Building more scalable frontend architectures and component libraries.
-- 🌐 Exploring database integration (PostgreSQL, MongoDB) and real-time WebSockets.
-- 👥 Collaborating on open-source repositories and team-driven campus initiatives.
+- 🧠 Improving my understanding of **Data Structures & Algorithms**.
+- 🛠️ Getting better at writing clean, readable, and well-commented code.
+- 🗄️ Learning how to connect and query real databases like PostgreSQL and MongoDB.
+- 🤝 Continuing to build projects with friends and learning from others.
 
 ---
 
-### 📊 GitHub Activity & Real-Time Stats
+### 📊 GitHub Activity & Stats
 
 <div align="center">
   <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=SarveshS1407&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Sarvesh's GitHub Stats" width="49%" />
@@ -113,5 +111,5 @@ I'm an aspiring developer passionate about building practical software and learn
 ---
 
 <div align="center">
-  <sub>Always open to feedback, code reviews, and exciting team collaborations!</sub>
+  <sub>Thanks for stopping by! Feel free to reach out or check out my repositories.</sub>
 </div>
