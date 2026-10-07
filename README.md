@@ -1,186 +1,120 @@
-<div align="center">
-
-# ⚡ Hi, I'm Sarvesh S 👋
-### Full-Stack Software Engineer • Creative Builder • Hackathon Enthusiast
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/sarveshs007/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:sarveshs1407@gmail.com"><img src="https://img.shields.io/badge/Email-sarveshs1407%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/SarveshS1407"><img src="https://img.shields.io/badge/GitHub-SarveshS1407-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://komarev.com/ghpvc/?username=SarveshS1407&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="assets/monogram.svg" alt="Monogram" width="48" height="48" />
 </p>
 
-<p align="center">
-  <code>🚀 Rapid Prototyping</code> • 
-  <code>🛠️ Developer Tools</code> • 
-  <code>🌐 Interactive Web Systems</code> • 
-  <code>🤝 Team Collaboration</code>
-</p>
+# Sarvesh S.
 
-</div>
+Computer Science Engineering student focused on building dependable software and understanding core systems from first principles.
 
----
+This repository serves as an open engineering journal—documenting projects built, design decisions made, and technical topics explored.
 
-### 📋 Quick Overview
-
-```yaml
-Name: Sarvesh S
-Location: India (UTC +05:30)
-Current Focus: Full-Stack Web Development, Developer Tooling & TypeScript
-Philosophy: "Learn by building, testing edge cases, and shipping functional code"
-Open For: Software Engineering Internships, Hackathons & Open-Source Projects
+```text
+Focus:     Full-Stack Development · Systems Tooling · Architecture
+Location:  India (UTC +05:30)
+Links:     linkedin.com/in/sarveshs007 · sarveshs1407@gmail.com
 ```
 
----
+<img src="assets/rule.svg" alt="Separator" width="100%" />
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌱 &nbsp; Engineering Journey</h3>
-      <p>
-        I'm an undergraduate Computer Science student who believes the best way to master software engineering is through <b>hands-on building</b>. Instead of just following tutorials, I build complete tools and applications to understand what happens under the hood.
-      </p>
-      <ul>
-        <li>📖 <b>Hands-On Learner:</b> Every project starts with a concrete curiosity—like <i>"How does Git track file trees?"</i> or <i>"How do interactive node graphs compute dependencies?"</i></li>
-        <li>🤝 <b>Hackathon Competitor:</b> Experienced in team environments—defining API contracts with teammates, Git branch coordination, and shipping polished MVPs under deadlines.</li>
-        <li>📐 <b>Quality Mindset:</b> Focused on writing modular code, automated testing suites, and setting up CI pipelines for every major build.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧰 &nbsp; Tech Stack & Ecosystem</h3>
-      <p><b>Languages</b></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,python,html,css" /></a>
-      <br /><br />
-      <p><b>Frontend & UI Frameworks</b></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite" /></a>
-      <br /><br />
-      <p><b>Backend, State & DevOps</b></p>
-      <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,git,github,actions" /></a>
-    </td>
-  </tr>
-</table>
+## Engineering Log
+
+An ongoing record of technical growth, architectural explorations, and software built.
+
+### 2026
+* **Dependency & Change Impact Modeling** — Investigated Directed Acyclic Graph (DAG) structures to predict downstream regression risks during Git merges; built interactive visualizers for module trees.
+* **Procedural Engine Architecture** — Explored pseudo-random number generator (PRNG) state cycles and decoupled component lifecycles using strict TypeScript typing.
+* **Testing & Continuous Integration** — Implemented comprehensive automated test runners (40+ unit and integration tests) and configured GitHub Actions CI pipelines for zero-cloud local tools.
+
+### 2025
+* **Audio Synthesis on the Web** — Experimented with the browser native Web Audio API; synthesized sound waves and procedural audio effects without external binary assets.
+* **Full-Stack Application Design** — Transitioned from toy scripts to multi-tier web services, designing clean REST endpoints and client-side reactive state management.
+* **Hackathon Engineering** — Competed in collaborative sprints; practiced interface contract negotiation, branch-based team workflows, and building under hard deadlines.
+
+<img src="assets/rule.svg" alt="Separator" width="100%" />
+
+## Featured Work
+
+Selected technical case studies highlighting problem definitions, engineering decisions, and architectural tradeoffs.
 
 ---
 
-## 🛠️ &nbsp; Featured Projects
+### Case 01: [GitAssist](https://github.com/SarveshS1407/GitAssist)
+> *An offline, privacy-first codebase archaeology tool and module dependency analyzer.*
 
-<table>
-  <tr>
-    <!-- Project 1: GitAssist -->
-    <td width="50%" valign="top">
-      <div align="right">
-        <img src="https://img.shields.io/badge/CLI_Tool-10B981?style=flat-square&logo=terminal&logoColor=white" />
-      </div>
-      <h3>⚡ <a href="https://github.com/SarveshS1407/GitAssist">GitAssist</a></h3>
-      <p><b>Offline Codebase Archaeology & Inspection Engine</b></p>
-      <p>A zero-cloud, privacy-first developer utility that walks local directory trees to extract module imports, flag circular dependencies, and calculate file change risks.</p>
-      <ul>
-        <li><b>AST & Regex Parsing:</b> Analyzes module dependencies and renders interactive Mermaid.js architecture diagrams.</li>
-        <li><b>Commit Risk Scoring:</b> Computes churn heuristics based on git logs and file complexity.</li>
-        <li><b>Automated Testing:</b> Built with <b>47 automated tests</b> and integrated with GitHub Actions CI.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-        <img src="https://img.shields.io/badge/Mermaid.js-FF3670?style=flat-square" />
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-      </p>
-      <div align="right">
-        <a href="https://github.com/SarveshS1407/GitAssist"><b>Explore Repo →</b></a>
-      </div>
-    </td>
-    <!-- Project 2: Veritas Mortis -->
-    <td width="50%" valign="top">
-      <div align="right">
-        <img src="https://img.shields.io/badge/Game_Engine-8B5CF6?style=flat-square" />
-      </div>
-      <h3>🩸 <a href="https://github.com/SarveshS1407/veritas-mortis">Veritas Mortis</a></h3>
-      <p><b>Procedural Neo-Noir Detective Engine</b></p>
-      <p>A 1970s neo-noir investigative game engine where every mystery case is procedurally generated with dynamic suspect tension and forensic evidence.</p>
-      <ul>
-        <li><b>Seeded PRNG:</b> Mulberry32 deterministic algorithm guarantees reproducible cases, autopsy reports, and crime scenes.</li>
-        <li><b>Interactive Forensics:</b> Features 365nm UV blacklight inspection and an evidence deduction matrix.</li>
-        <li><b>State Architecture:</b> Decoupled reactive game loops using Zustand with smooth Framer Motion atmosphere.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square" />
-        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-      </p>
-      <div align="right">
-        <a href="https://github.com/SarveshS1407/veritas-mortis"><b>Explore Repo →</b></a>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <!-- Project 3: CodeMap -->
-    <td width="50%" valign="top">
-      <div align="right">
-        <img src="https://img.shields.io/badge/Hackathon-F59E0B?style=flat-square" />
-      </div>
-      <h3>👥 <a href="https://github.com/Dhyanesh2603/Codemap">CodeMap (ImpactLens AI)</a></h3>
-      <p><b>Architectural Dependency & Impact Visualizer</b></p>
-      <p>A visual codebase explorer built in a hackathon team to map complex service hierarchies and predict downstream breaking changes before merging code.</p>
-      <ul>
-        <li><b>Frontend Leadership:</b> Designed the entire Next.js architecture with pannable, zoomable node graphs via React Flow.</li>
-        <li><b>Change Ripples:</b> Dynamic animated highlights illustrating service dependencies that light up based on file modifications.</li>
-        <li><b>Real-time Sync:</b> Integrated WebSocket event streaming for multiplayer code inspection.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/React_Flow-FF0072?style=flat-square" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-      </p>
-      <div align="right">
-        <a href="https://github.com/Dhyanesh2603/Codemap"><b>Explore Repo →</b></a>
-      </div>
-    </td>
-    <!-- Project 4: Project Tycoon -->
-    <td width="50%" valign="top">
-      <div align="right">
-        <img src="https://img.shields.io/badge/Full--Stack-EC4899?style=flat-square" />
-      </div>
-      <h3>🏙️ <a href="https://github.com/SarveshS1407/project-tycoon">Project Tycoon v3.0</a></h3>
-      <p><b>Engineering Squad Simulation & Management Game</b></p>
-      <p>A full-stack simulation game modeling developer squad dynamics—balancing feature velocity, budget runway, and code debt penalties against a Rival AI CTO.</p>
-      <ul>
-        <li><b>Web Audio Synthesizer:</b> Native browser Web Audio API oscillator synthesis generating custom retro 8-bit sound effects with zero audio assets.</li>
-        <li><b>Simulation Math:</b> Custom algorithms computing productivity impact and technical debt decay.</li>
-        <li><b>Backend API:</b> Express.js 5 REST service handling user sessions, rosters, and leaderboards.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Express.js_5-000000?style=flat-square&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/Web_Audio-E34F26?style=flat-square" />
-      </p>
-      <div align="right">
-        <a href="https://github.com/SarveshS1407/project-tycoon"><b>Explore Repo →</b></a>
-      </div>
-    </td>
-  </tr>
-</table>
+* **Problem:** Developers joining an unfamiliar or legacy repository often struggle to understand structural dependencies and frequently introduce circular imports or break unmapped downstream services.
+* **Engineering:**
+  * Designed an AST and pattern scanner that traverses local directory trees to extract module imports without transmitting source code over the network.
+  * Implemented an algorithmic cycle detection pass to flag circular dependencies before code execution.
+  * Computed change risk heuristics by cross-referencing commit churn rates against file complexity.
+  * Authored a 47-test suite using Node's native test runner to guarantee deterministic execution across edge cases.
+* **Impact & Learnings:** Learned how to traverse AST nodes, handle file system edge cases (symlinks, permission barriers), and enforce regression protection through GitHub Actions.
 
 ---
 
-## 📊 &nbsp; Real-Time Activity & Telemetry
+### Case 02: [Veritas Mortis](https://github.com/SarveshS1407/veritas-mortis)
+> *A procedural 1970s neo-noir detective thriller game engine built with seeded deterministic state.*
 
-<div align="center">
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=SarveshS1407&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="49%" />
-  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=SarveshS1407&layout=compact&theme=radical&hide_border=true" width="47%" />
-</div>
-
-<div align="center">
-  <br />
-  <img src="https://streak-stats.demolab.com/?user=SarveshS1407&theme=radical&hide_border=true" width="97%" />
-</div>
+* **Problem:** Dynamic narrative engines frequently suffer from state inconsistency, where randomly generated clues, alibis, and timelines contradict each other.
+* **Engineering:**
+  * Utilized the **Mulberry32 PRNG** algorithm to build a deterministic generation pipeline, guaranteeing reproducible investigative cases given an identical integer seed.
+  * Modeled a 4-tier suspect stress matrix (`Calm → Deflecting → Cornered → Broken`) to govern dialogue trees dynamically.
+  * Enforced strict domain contracts in TypeScript across deeply nested case objects and decoupled UI rendering from game state via Zustand.
+* **Impact & Learnings:** Deepened appreciation for state immutability, mathematical pseudo-random determinism, and building complex interactive workflows without memory leaks.
 
 ---
 
-<div align="center">
-  <h3>🤝 Let's Connect & Build Together</h3>
-  <p>I'm always open to discussing new opportunities, collaborating on cool projects, or exchanging ideas.</p>
-  <a href="https://www.linkedin.com/in/sarveshs007/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sarveshs1407@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <br /><br />
-  <sub>⭐️ Designed with care for <b>SarveshS1407</b> • Continuous learning in progress</sub>
-</div>
+### Case 03: [CodeMap (ImpactLens AI)](https://github.com/Dhyanesh2603/Codemap)
+> *An architectural dependency visualizer and change-impact prediction platform.*
+
+* **Problem:** Microservice relationships and modular imports are difficult to conceptualize through file trees alone, obscuring the ripple impact of pull requests.
+* **Engineering:**
+  * Led frontend development for a collaborative hackathon project, implementing interactive node graphs using React Flow.
+  * Programmed animated dependency highlight paths that dynamically illustrate which downstream services are impacted when a selected file is altered.
+  * Integrated real-time WebSockets to synchronize graph inspection across multi-client review sessions.
+* **Impact & Learnings:** Practiced rapid interface design under strict 24-hour hackathon constraints, mastered canvas viewport transformation mathematics, and established clear API schema contracts with backend peers.
+
+---
+
+### Case 04: [Project Tycoon v3.0](https://github.com/SarveshS1407/project-tycoon)
+> *A full-stack software development simulation game modeling technical debt and team dynamics.*
+
+* **Problem:** Abstract concepts like technical debt, burnout, and feature velocity are difficult for students to conceptualize without quantitative systems modeling.
+* **Engineering:**
+  * Designed mathematical simulation curves calculating daily squad output based on developer skill distribution, morale decay, and compounding debt penalties.
+  * Programmed an 8-bit sound synthesizer from scratch using the browser's native **Web Audio API** oscillators and gain nodes—eliminating external audio asset bloat.
+  * Developed an Express.js 5 backend REST service managing player sessions, game saves, and competitive AI rounds.
+* **Impact & Learnings:** Learned the mechanics of low-level browser audio synthesis, state reconciliation in simulation loops, and clean RESTful session persistence.
+
+<img src="assets/rule.svg" alt="Separator" width="100%" />
+
+## Technical Toolkit
+
+A focused overview of languages, frameworks, and foundational tools used across active codebases.
+
+* **Languages:** TypeScript · JavaScript (ES6+) · Python · C/C++ · HTML5 / CSS3
+* **Frontend & UI:** React 19 · Next.js (App Router) · Tailwind CSS · React Flow · Zustand · Framer Motion
+* **Backend & Systems:** Node.js · Express.js 5 · RESTful APIs · WebSockets · Web Audio API
+* **Engineering Practices:** Git (Branching & Workflows) · GitHub Actions (CI/CD) · Automated Unit & Integration Testing · Markdown / Mermaid.js
+
+<img src="assets/rule.svg" alt="Separator" width="100%" />
+
+## Currently Exploring
+
+Topics and engineering domains currently under study:
+
+* → **Compilers & ASTs:** Writing parsers and understanding how programming languages tokenize and execute instructions.
+* → **Distributed Systems Fundamentals:** Consensus mechanisms, replication strategies, and failure modes in multi-node architectures.
+* → **Relational Database Internals:** Index structures (B-Trees), query planning, and transactional ACID guarantees beyond file-based stores.
+* → **Open-Source Contribution:** Studying well-maintained repositories to understand idiomatic conventions, RFC processes, and collaborative stewardship.
+
+<img src="assets/rule.svg" alt="Separator" width="100%" />
+
+## Notes & Colophon
+
+This journal reflects honest, iterative engineering work. Projects represent concrete problem explorations rather than polished commercial offerings. 
+
+* **Correspondence:** [sarveshs1407@gmail.com](mailto:sarveshs1407@gmail.com)
+* **Professional Profile:** [linkedin.com/in/sarveshs007](https://www.linkedin.com/in/sarveshs007/)
+* **Source Code:** [github.com/SarveshS1407](https://github.com/SarveshS1407)
+
+<sub>Document set in system default typography. Updated October 2026.</sub>
