@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+  <defs>
+    <linearGradient id="insigniaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0077FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Hexagonal Reticle Frame -->
+  <polygon points="36,4 66,20 66,52 36,68 6,52 6,20" fill="#070B12" stroke="#1E2E42" stroke-width="1.5" />
+  
+  <!-- Corner Tech Accents -->
+  <circle cx="36" cy="4" r="2" fill="#00F0FF" />
+  <circle cx="66" cy="20" r="2" fill="#00F0FF" />
+  <circle cx="66" cy="52" r="2" fill="#00F0FF" />
+  <circle cx="36" cy="68" r="2" fill="#00F0FF" />
+  <circle cx="6" cy="52" r="2" fill="#00F0FF" />
+  <circle cx="6" cy="20" r="2" fill="#00F0FF" />
+
+  <!-- Inner Dynamic Monogram Glyph -->
+  <path d="M 44 23 L 28 23 C 24 23 22 25 22 29 C 22 35 50 34 50 43 C 50 48 47 49 43 49 L 26 49" fill="none" stroke="url(#insigniaGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Center Targeting Dot -->
+  <circle cx="36" cy="36" r="1.5" fill="#00F0FF" />
+</svg>

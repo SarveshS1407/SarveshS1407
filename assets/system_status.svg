@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 130" width="100%" height="130">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A11" />
+      <stop offset="100%" stop-color="#0B101D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .hud-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .hud-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif; }
+    .status-dot { animation: blink 2s infinite ease-in-out; }
+  </style>
+
+  <!-- Container Base with Subtle Glass Border -->
+  <rect width="960" height="130" rx="10" fill="url(#cardGrad)" />
+  <rect x="0.5" y="0.5" width="959" height="129" rx="10" fill="none" stroke="#1C2738" stroke-width="1" />
+
+  <!-- Grid Separators between 4 modules -->
+  <line x1="240" y1="15" x2="240" y2="115" stroke="#162232" stroke-width="1" stroke-dasharray="2 3" />
+  <line x1="480" y1="15" x2="480" y2="115" stroke="#162232" stroke-width="1" stroke-dasharray="2 3" />
+  <line x1="720" y1="15" x2="720" y2="115" stroke="#162232" stroke-width="1" stroke-dasharray="2 3" />
+
+  <!-- Module 1: Currently Building -->
+  <g transform="translate(24, 22)">
+    <text class="hud-mono" x="0" y="12" font-size="9" fill="#00F0FF" letter-spacing="1.5" font-weight="700">01 // CURRENT BUILD</text>
+    <text class="hud-sans" x="0" y="38" font-size="15" fill="#FFFFFF" font-weight="700">GitAssist v2.0</text>
+    <text class="hud-mono" x="0" y="58" font-size="10" fill="#64748B">Local AST &amp; DAG Scanner</text>
+    <text class="hud-mono" x="0" y="76" font-size="9.5" fill="#38BDF8">47 Tests • GitHub Actions</text>
+  </g>
+
+  <!-- Module 2: In-Flight Mission -->
+  <g transform="translate(264, 22)">
+    <text class="hud-mono" x="0" y="12" font-size="9" fill="#00F0FF" letter-spacing="1.5" font-weight="700">02 // IN-FLIGHT MISSION</text>
+    <text class="hud-sans" x="0" y="38" font-size="15" fill="#FFFFFF" font-weight="700">Veritas Mortis</text>
+    <text class="hud-mono" x="0" y="58" font-size="10" fill="#64748B">Procedural PRNG Engine</text>
+    <text class="hud-mono" x="0" y="76" font-size="9.5" fill="#38BDF8">Next.js 16 • Zustand • PRNG</text>
+  </g>
+
+  <!-- Module 3: Active Focus Area -->
+  <g transform="translate(504, 22)">
+    <text class="hud-mono" x="0" y="12" font-size="9" fill="#00F0FF" letter-spacing="1.5" font-weight="700">03 // ACTIVE HORIZON</text>
+    <text class="hud-sans" x="0" y="38" font-size="15" fill="#FFFFFF" font-weight="700">Systems &amp; State</text>
+    <text class="hud-mono" x="0" y="58" font-size="10" fill="#64748B">Distributed Architectures</text>
+    <text class="hud-mono" x="0" y="76" font-size="9.5" fill="#38BDF8">WebSockets • Graph DAGs</text>
+  </g>
+
+  <!-- Module 4: Dispatch & Availability -->
+  <g transform="translate(744, 22)">
+    <text class="hud-mono" x="0" y="12" font-size="9" fill="#00F0FF" letter-spacing="1.5" font-weight="700">04 // DISPATCH STATUS</text>
+    <g transform="translate(0, 24)">
+      <circle class="status-dot" cx="6" cy="10" r="4.5" fill="#10B981" />
+      <text class="hud-sans" x="18" y="15" font-size="15" fill="#10B981" font-weight="700">Open for Roles</text>
+    </g>
+    <text class="hud-mono" x="0" y="58" font-size="10" fill="#64748B">SDE Internships &amp; Collabs</text>
+    <text class="hud-mono" x="0" y="76" font-size="9.5" fill="#94A3B8">sarveshs1407@gmail.com</text>
+  </g>
+</svg>

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="100%" height="260">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070B" />
+      <stop offset="60%" stop-color="#090D15" />
+      <stop offset="100%" stop-color="#0D131F" />
+    </linearGradient>
+
+    <!-- Subtle Cyan Ambient Radial Glow -->
+    <radialGradient id="cyanGlow" cx="80%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.14" />
+      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.85); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-20px); opacity: 0; }
+      20% { opacity: 0.6; }
+      80% { opacity: 0.6; }
+      100% { transform: translateY(260px); opacity: 0; }
+    }
+    @keyframes radarSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .hud-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .hud-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, sans-serif; }
+
+    .pulse-dot {
+      transform-origin: 32px 34px;
+      animation: pulse 2.2s infinite ease-in-out;
+    }
+    .radar-sweep {
+      transform-origin: 830px 130px;
+      animation: radarSpin 8s linear infinite;
+    }
+    .scan-beam {
+      animation: scanline 6s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="960" height="260" rx="14" fill="url(#bgGrad)" />
+  <rect width="960" height="260" rx="14" fill="url(#cyanGlow)" />
+  <rect x="0.5" y="0.5" width="959" height="259" rx="14" fill="none" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Technical Background Grid -->
+  <g stroke="#141E2E" stroke-width="0.5" stroke-dasharray="2 4">
+    <line x1="0" y1="52" x2="960" y2="52" />
+    <line x1="0" y1="130" x2="960" y2="130" />
+    <line x1="0" y1="208" x2="960" y2="208" />
+    <line x1="240" y1="0" x2="240" y2="260" />
+    <line x1="480" y1="0" x2="480" y2="260" />
+    <line x1="720" y1="0" x2="720" y2="260" />
+  </g>
+
+  <!-- Radar HUD Display on the right -->
+  <g opacity="0.6">
+    <circle cx="830" cy="130" r="75" fill="none" stroke="#1E2E42" stroke-width="1" />
+    <circle cx="830" cy="130" r="50" fill="none" stroke="#1E2E42" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="830" cy="130" r="25" fill="none" stroke="#1E2E42" stroke-width="1" />
+    <line x1="755" y1="130" x2="905" y2="130" stroke="#1E2E42" stroke-width="1" />
+    <line x1="830" y1="55" x2="830" y2="205" stroke="#1E2E42" stroke-width="1" />
+    <!-- Rotating Radar Sector -->
+    <path class="radar-sweep" d="M 830 130 L 905 130 A 75 75 0 0 1 830 205 Z" fill="url(#sweepGrad)" />
+  </g>
+
+  <!-- Sweeping subtle horizontal beam -->
+  <line class="scan-beam" x1="0" y1="0" x2="960" y2="0" stroke="#00F0FF" stroke-width="1" opacity="0.4" />
+
+  <!-- Left Header Status Pill -->
+  <g transform="translate(32, 24)">
+    <rect width="260" height="22" rx="4" fill="#0C1420" stroke="#1C2E42" stroke-width="1" />
+    <circle class="pulse-dot" cx="12" cy="11" r="3.5" fill="#00F0FF" />
+    <text class="hud-mono" x="24" y="15" font-size="10" fill="#00F0FF" font-weight="600" letter-spacing="1.5">OBSERVATORY // SYS_ACTIVE</text>
+    <text class="hud-mono" x="200" y="15" font-size="9" fill="#64748B" letter-spacing="1">LATENCY: 12ms</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text class="hud-sans" x="32" y="105" font-size="44" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+    SARVESH S<tspan fill="#00F0FF">.</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text class="hud-mono" x="34" y="138" font-size="13" font-weight="600" fill="#38BDF8" letter-spacing="1.5">
+    SOFTWARE ARCHITECT &amp; SYSTEMS BUILDER
+  </text>
+
+  <!-- Mission Statement -->
+  <text class="hud-sans" x="34" y="172" font-size="14" fill="#94A3B8" font-weight="400">
+    Engineering reactive developer tools, procedural logic engines, and distributed interfaces.
+  </text>
+
+  <text class="hud-sans" x="34" y="196" font-size="13" fill="#64748B">
+    Turning complex algorithmic graph models and low-level protocols into seamless digital products.
+  </text>
+
+  <!-- Bottom Telemetry Chips -->
+  <g transform="translate(34, 222)">
+    <rect width="118" height="20" rx="3" fill="#0B1320" stroke="#182A40" stroke-width="1" />
+    <text class="hud-mono" x="10" y="14" font-size="9.5" fill="#00F0FF" font-weight="600">RUNTIME: V8/NODE</text>
+
+    <rect x="128" width="134" height="20" rx="3" fill="#0B1320" stroke="#182A40" stroke-width="1" />
+    <text class="hud-mono" x="138" y="14" font-size="9.5" fill="#38BDF8" font-weight="600">ARCH: FULL-STACK</text>
+
+    <rect x="272" width="134" height="20" rx="3" fill="#0B1320" stroke="#182A40" stroke-width="1" />
+    <text class="hud-mono" x="282" y="14" font-size="9.5" fill="#10B981" font-weight="600">STATUS: RECRUITING</text>
+  </g>
+
+  <!-- Corner Framing Reticles -->
+  <path d="M 12 22 L 12 12 L 22 12" stroke="#00F0FF" stroke-width="1.5" fill="none" opacity="0.8" />
+  <path d="M 948 22 L 948 12 L 938 12" stroke="#00F0FF" stroke-width="1.5" fill="none" opacity="0.8" />
+  <path d="M 12 238 L 12 248 L 22 248" stroke="#00F0FF" stroke-width="1.5" fill="none" opacity="0.8" />
+  <path d="M 948 238 L 948 248 L 938 248" stroke="#00F0FF" stroke-width="1.5" fill="none" opacity="0.8" />
+</svg>
