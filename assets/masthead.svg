@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 180" width="100%" height="180">
+  <style>
+    .bg { fill: #0B0F17; }
+    .border { stroke: #1E293B; stroke-width: 1; fill: none; }
+    .grid { stroke: #151D2A; stroke-width: 0.5; stroke-dasharray: 2 4; }
+    .tag-bg { fill: #131E2E; stroke: #2563EB; stroke-width: 1; }
+    .tag-text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace; font-size: 11px; fill: #60A5FA; font-weight: 600; letter-spacing: 1px; }
+    .tag-dot { fill: #38BDF8; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #F8FAFC; letter-spacing: -0.8px; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; fill: #94A3B8; }
+    .meta-label { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace; font-size: 10px; fill: #475569; letter-spacing: 1.5px; }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #F8FAFC; }
+      .border { stroke: #E2E8F0; }
+      .grid { stroke: #EDF2F7; }
+      .tag-bg { fill: #EFF6FF; stroke: #3B82F6; }
+      .tag-text { fill: #2563EB; }
+      .tag-dot { fill: #2563EB; }
+      .title { fill: #0F172A; }
+      .desc { fill: #475569; }
+      .meta-label { fill: #94A3B8; }
+    }
+  </style>
+
+  <!-- Background Card -->
+  <rect class="bg" width="960" height="180" rx="10" />
+  <rect class="border" x="0.5" y="0.5" width="959" height="179" rx="10" />
+
+  <!-- Subtle Blueprint Grid Lines -->
+  <line class="grid" x1="0" y1="45" x2="960" y2="45" />
+  <line class="grid" x1="0" y1="135" x2="960" y2="135" />
+  <line class="grid" x1="680" y1="0" x2="680" y2="180" />
+
+  <!-- Status Pill Tag -->
+  <g transform="translate(40, 26)">
+    <rect class="tag-bg" width="230" height="24" rx="12" />
+    <circle class="tag-dot" cx="16" cy="12" r="3.5" />
+    <text class="tag-text" x="28" y="16">ENGINEERING JOURNAL // 2026</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text class="title" x="40" y="92">Building Software from First Principles.</text>
+  <text class="desc" x="40" y="122">Sarvesh S &nbsp;•&nbsp; Computer Science Student &amp; Software Builder &nbsp;•&nbsp; Systems, Tools &amp; Web</text>
+
+  <!-- Right Meta Telemetry Block -->
+  <g transform="translate(710, 36)">
+    <text class="meta-label" x="0" y="14">STATUS</text>
+    <text class="desc" x="0" y="34" font-weight="600" fill="#38BDF8">● Active / Building</text>
+
+    <text class="meta-label" x="0" y="70">PRIMARY STACK</text>
+    <text class="desc" x="0" y="90">TypeScript · React · Node</text>
+  </g>
+</svg>
